@@ -8,12 +8,13 @@ The implemented model is a multi-layer processing model designed for customer ch
 Once deployed, it takes user input and returns a categorical value, indicating whether a customer is likely to churn or not.
 
 # Repository Contents
-- CustomerChurnDeployment.py: This script showcases the deployment of the model using Streamlit.
+- app.py: This script showcases the deployment of the model using Streamlit.
 It accepts user input, encodes it, and runs it through the deployed model to predict churn probability.
 
-- Model.H5: This file contains the saved model, which is loaded and deployed by the CustomerChurnDeployment.py script.
+- model2.H5: This file contains the saved model, which is loaded and deployed by the CustomerChurnDeployment.py script.
 
 - Deployment Video: Explore the deployment video to understand the functionality of the deployed app.
+https://youtu.be/3UYEks3fekg
 
 # Usage
 Run CustomerChurnDeployment.py using Streamlit to deploy the model.
