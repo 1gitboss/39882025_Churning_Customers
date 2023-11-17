@@ -17,7 +17,7 @@ It accepts user input, encodes it, and runs it through the deployed model to pre
 https://youtu.be/3UYEks3fekg
 
 # Usage
-Run CustomerChurnDeployment.py using Streamlit to deploy the model.
+Run app.py using Streamlit to deploy the model.
 Input user data through the app.
 The model predicts the likelihood of customer churn based on the input.
 # Code Details
